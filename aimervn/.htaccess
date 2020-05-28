@@ -1,7 +1,5 @@
-# Đặt Pass cho file
-<files index.html>
-AuthType Basic
-AuthName "Prompt"
+AuthName "Admins Only"
 AuthUserFile /.htpasswd
-Require valid-user
-</files>
+AuthGroupFile /dev/null
+AuthType basic
+require valid-user
