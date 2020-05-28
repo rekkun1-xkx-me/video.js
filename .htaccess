@@ -1,5 +1,5 @@
 # Password Protect file
-<Files index.html>
+<Files aimervn>
 AuthName "Prompt"
 AuthType Basic
 AuthUserFile .htpasswd
