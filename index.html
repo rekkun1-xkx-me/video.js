@@ -3,30 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>Video.js Dev Server</title>
+  <link href="//vjs.zencdn.net/7.8.2/video-js.min.css" rel="stylesheet">
+  <script src="//vjs.zencdn.net/7.8.2/video.min.js"></script>
 </head>
 <body>
-  <h2>Navigation</h2>
-  <ul>
-    <li><a href="test/debug.html">Run unit tests in browser.</a></li>
-    <li><a href="sandbox/index.html">Simple Demo (also seen below)</a></li>
-    <li><a href="sandbox/plugin.html">Plugin Demo</a></li>
-    <li><a href="sandbox/responsive.html">Responsive Demo</a></li>
-    <li><a href="sandbox/middleware-play.html">Middleware Play Demo</a></li>
-    <li><a href="sandbox/icons.html">Icons Demo</a></li>
-    <li><a href="sandbox/focus-visible.html">Focus Visible Demo</a></li>
-    <li><a href="sandbox/flash.html">Flash Demo</a></li>
-    <li><a href="sandbox/embeds.html">Embeds Demo</a></li>
-    <li><a href="sandbox/descriptions.html">Descriptions Demo</a></li>
-    <li><a href="sandbox/combined-tracks.html">Combined Tracks Demo</a></li>
-    <li><a href="sandbox/live.html">Live Demo</a></li>
-    <li><a href="sandbox/liveui.html">LiveUI Demo</a></li>
-    <li><a href="sandbox/vertical-volume.html">Vertical Volume Demo</a></li>
-    <li><a href="sandbox/language.html">Laungage Demo</a></li>
-    <li><a href="sandbox/hls.html">Hls Demo</a></li>
-    <li><a href="sandbox/autoplay-tests.html">Autoplay Tests</a></li>
-  </ul>
-
-  <h2>Simple Demo (in an iframe)</h2>
-  <iframe src="sandbox/index.html" width=700 height=500></iframe>
+ <video
+    id="my-player"
+    class="video-js"
+    controls
+    preload="auto"
+    poster="//vjs.zencdn.net/v/oceans.png"
+    data-setup='{}'>
+  <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+  <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm">
+  <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg">
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a
+    web browser that
+    <a href="https://videojs.com/html5-video-support/" target="_blank">
+      supports HTML5 video
+    </a>
+  </p>
+ </video>
 </body>
 </html>
