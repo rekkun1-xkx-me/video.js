@@ -2,6 +2,6 @@
 <files index.html>
 AuthType Basic
 AuthName "Prompt"
-AuthUserFile .htpasswd
+AuthUserFile /.htpasswd
 Require valid-user
 </files>
