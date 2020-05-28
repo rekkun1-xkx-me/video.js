@@ -1,5 +1,5 @@
 AuthName "Admins Only"
-AuthUserFile /app/.htpasswd
+AuthUserFile /.htpasswd
 AuthGroupFile /dev/null
 AuthType basic
 require aimer
