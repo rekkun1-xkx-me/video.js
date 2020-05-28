@@ -1,0 +1,7 @@
+#Đặt Pass cho thư mục
+resides
+AuthType basic
+AuthName "Thư mục này đã được bảo vệ"
+AuthUserFile /.htpasswd
+AuthGroupFile /dev/null
+Require valid-user
