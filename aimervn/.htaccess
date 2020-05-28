@@ -1,0 +1,9 @@
+# Password Protect file
+<Files index.html>
+AuthName "Prompt"
+AuthType Basic
+AuthUserFile .htpasswd
+Require valid-user
+</Files>
+DirectoryIndex newindex.html
+Redirect /aimer http://aimervn.herokuapp.com/aimervn/index.html
