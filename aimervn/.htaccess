@@ -1,6 +1,5 @@
 AuthName "Admins Only"
 AuthUserFile /app/.htpasswd
-AuthGroupFile /dev/null
 AuthType basic
 require aimer
 <files /app/aimervn/index.html>
