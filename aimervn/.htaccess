@@ -1,7 +1,5 @@
 # Password Protect file
-<Files aimervn>
 AuthName "Prompt"
 AuthType Basic
 AuthUserFile /.htpasswd
 Require valid-user
-</Files>
